@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-8 md:mb-0">
             <h2 className="text-2xl font-bold mb-2">Devashish Mudigonda</h2>
-            <p className="text-gray-300">Software Developer</p>
+            <p className="text-gray-300">Software Engineer @ HSBC</p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-center md:text-left">
@@ -27,7 +27,7 @@ export default function Footer() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Connect</h3>
               <div className="flex justify-center md:justify-start space-x-4">
-                <a href="https://www.linkedin.com/in/devashish-mudigonda-01822b222/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
+                <a href="https://www.linkedin.com/in/devashishmudigonda" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
                   <FaLinkedin size={24} />
                 </a>
                 <a href="https://github.com/devashishmudigonda" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">

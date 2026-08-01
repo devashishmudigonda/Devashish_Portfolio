@@ -1,6 +1,6 @@
 // import { FaHtml5, FaCss3Alt, FaJs, FaJava, FaPython, FaGit, FaWindows, FaApple, FaLinux, FaDesktop, FaAndroid} from 'react-icons/fa';
 import { FaJava, FaPython, FaJs, FaGit, FaHtml5, FaCss3Alt, FaWindows, FaApple, FaLinux, FaAndroid, FaDatabase } from "react-icons/fa";
-import { SiCplusplus, SiMysql, SiFirebase, SiMongodb, SiDjango, SiFlask, SiReact, SiNodedotjs, SiJquery, SiSqlite, SiPostman, SiGithub, SiIos } from "react-icons/si";
+import { SiCplusplus, SiMysql, SiFirebase, SiMongodb, SiDjango, SiFlask, SiReact, SiNodedotjs, SiJquery, SiSqlite, SiPostman, SiGithub, SiIos, SiSpring, SiGo, SiDocker, SiKubernetes, SiAmazonwebservices, SiJenkins } from "react-icons/si";
 
 // import { SiCplusplus, SiMysql, SiFirebase, SiIos } from 'react-icons/si';
 import { GiSolderingIron } from 'react-icons/gi';
@@ -17,6 +17,7 @@ export default function Skills() {
         { name: "C/C++", icon: <SiCplusplus className="text-blue-600" size={40} />, level: 70 },
         { name: "Java", icon: <FaJava className="text-red-600" size={40} />, level: 80 },
         { name: "JavaScript", icon: <FaJs className="text-yellow-400" size={40} />, level: 65 },
+        { name: "Go", icon: <SiGo className="text-cyan-600" size={40} />, level: 55 },
         { name: "HTML5", icon: <FaHtml5 className="text-orange-500" size={40} />, level: 80 },
         { name: "CSS3", icon: <FaCss3Alt className="text-blue-500" size={40} />, level: 70 },
       ]
@@ -24,6 +25,7 @@ export default function Skills() {
     {
       category: "Frameworks & Libraries",
       items: [
+        { name: "Spring Boot", icon: <SiSpring className="text-green-600" size={40} />, level: 90 },
         { name: "Django", icon: <SiDjango className="text-green-700" size={40} />, level: 85 },
         { name: "Flask", icon: <SiFlask className="text-gray-700 dark:text-gray-300" size={40} />, level: 75 },
         { name: "ReactJS", icon: <SiReact className="text-cyan-500" size={40} />, level: 70 },
@@ -47,6 +49,10 @@ export default function Skills() {
         { name: "GitHub", icon: <SiGithub className="text-black dark:text-white" size={40} />, level: 85 },
         // { name: "VS Code", icon: <SiVisualstudiocode className="text-blue-600" size={40} />, level: 90 },
         { name: "Postman", icon: <SiPostman className="text-orange-500" size={40} />, level: 75 },
+        { name: "Docker", icon: <SiDocker className="text-blue-500" size={40} />, level: 75 },
+        { name: "Kubernetes", icon: <SiKubernetes className="text-blue-600" size={40} />, level: 65 },
+        { name: "AWS EC2", icon: <SiAmazonwebservices className="text-orange-500" size={40} />, level: 65 },
+        { name: "Jenkins", icon: <SiJenkins className="text-red-600" size={40} />, level: 75 },
       ]
     },
     {
@@ -113,8 +119,7 @@ export default function Skills() {
           <li>NextJS</li>
           <li>AngularJS</li>
           <li>GCP</li>
-          <li>Docker</li>
-          <li>Kubernetes</li>
+          <li>System design at scale</li>
         </ul>
       </AnimatedSection>
     </div>

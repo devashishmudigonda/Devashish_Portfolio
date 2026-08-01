@@ -7,15 +7,39 @@ const experiences = [
   {
     company: "HSBC",
     logo: "/logos/hsbc.png",
-    title: "Software Development Intern",
-    date: "Jan 2025 – Mar 2025",
-    description: "Built an internal enterprise tool for streamlining company credit insights.",
-    responsibilities: [
-      "Designed frontend interfaces using Microsoft PowerApps.",
-      "Integrated backend services using SpringBoot for secure data flow.",
-      "Handled automation for fetching and displaying Moody’s credit data."
+    tenure: "Jul 2025 – Present",
+    description: "Joined as an intern in Jan 2025, converted to full-time in Jul 2025, and was promoted to Software Engineer in Jan 2026 — building reactive Java microservices on the Nova credit platform.",
+    roles: [
+      {
+        title: "Software Engineer",
+        date: "Jan 2026 – Present",
+        responsibilities: [
+          "Own deployment activities — release coordination, environment promotions, and post-deploy validation — across multiple parallel projects.",
+          "Cut payload generation latency by ~80% (100s → 20s) by refactoring reactive data flows and transformation logic.",
+          "Authored a custom Java-annotation validation framework (reusable constraints + validators) for Dataverse-backed microservices and forms.",
+          "Drove API standardization across the Nova central API repository and partner with senior engineers on design decisions and code review."
+        ]
+      },
+      {
+        title: "Trainee Software Engineer",
+        date: "Jul 2025 – Jan 2026",
+        responsibilities: [
+          "Wrote custom validators and business-rule validations across backend services.",
+          "Implemented logical code changes tied to evolving user requirements.",
+          "Owned a steady stream of bug fixes and maintenance work."
+        ]
+      },
+      {
+        title: "SDE Intern",
+        date: "Jan 2025 – Mar 2025",
+        responsibilities: [
+          "Designed frontend interfaces using Microsoft PowerApps.",
+          "Integrated backend services using SpringBoot for secure data flow.",
+          "Handled automation for fetching and displaying Moody’s credit data."
+        ]
+      }
     ],
-    tech: ["PowerApps", "SpringBoot", "REST APIs"]
+    tech: ["Java", "Spring Boot", "Reactive Java", "Microsoft Dataverse", "OData", "Jenkins", "JUnit", "PowerApps"]
   },
   {
     company: "Providence India",

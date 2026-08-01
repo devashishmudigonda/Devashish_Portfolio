@@ -115,7 +115,7 @@ export default function Navbar() {
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
                 Devashish Mudigonda
-                <span className="text-xs text-gray-500 dark:text-gray-400"> | Software Developer</span>
+                <span className="text-xs text-gray-500 dark:text-gray-400"> | Software Engineer @ HSBC</span>
                 {isSpinning && <span className="text-xs ml-1">🌀</span>}
               </motion.span>
             </Link>

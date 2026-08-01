@@ -21,9 +21,9 @@ const experiences = [
   {
     company: "HSBC",
     logo: "/logos/hsbc.png",
-    title: "Software Development Intern",
-    date: "Jan 2025 – Mar 2025",
-    description: "Built an internal PowerApps + SpringBoot solution to streamline company credit data (e.g. Moody’s)."
+    title: "Software Engineer",
+    date: "Jan 2026 – Present",
+    description: "Promoted from Trainee to Software Engineer; own deployment coordination and reactive Java microservices on the Nova credit platform."
   },
   {
     company: "Providence India",
@@ -53,10 +53,10 @@ export default function Home() {
   const featuredProjects = getFeaturedProjects();
 
   const aboutMeText = [
-    "I’m Devashish Mudigonda, a Computer Science and Engineering student at CBIT with a 9.3 CGPA. I’m passionate about Web Development, Machine Learning, and Automation, and enjoy building scalable, impactful solutions.",
-    
-    "Through internships at HSBC and Providence India, I developed tools using PowerApps, SpringBoot, Django, and Python—automating processes and enhancing network operations.",
-    
+    "I’m Devashish Mudigonda, a Software Engineer at HSBC and a Computer Science and Engineering graduate from CBIT with a 9.32 CGPA. I’m passionate about backend systems, automation, and building scalable, impactful solutions.",
+
+    "Promoted from Trainee to Software Engineer in Jan 2026, I build reactive Java microservices on HSBC's Nova credit platform, cutting production latency by ~80% and now owning deployment and release coordination across multiple projects. Earlier, at Providence India, I automated network operations workflows with Python and Django—cutting manual effort by 40%.",
+
     "My projects include a CNN-based crop disease detector using Flask, and a firewall policy matcher for network automation. I love integrating AI into practical applications.",
     
     "I’ve served as Deputy Website Head of the Robotics Club and an NCC Cadet. I’m also a state-level Gold Medalist in Powerlifting, which reflects my discipline and drive.",
@@ -74,10 +74,10 @@ export default function Home() {
             Hi, I&apos;m <span className="text-primary">Devashish Mudigonda</span>
           </h1>
           <h2 className="text-2xl md:text-3xl text-gray-700 dark:text-gray-300">
-            Software Developer
+            Software Engineer @ HSBC
           </h2>
           <p className="text-lg text-gray-700 dark:text-gray-300">
-            Passionate about technology, powerlifitng, and building impactful solutions.
+            Building reactive Java microservices, powerlifting on the side, and building impactful solutions.
           </p>
           <div className="pt-4 flex flex-wrap gap-4">
             <Link href="/projects" className="px-6 py-3 bg-primary text-white rounded-md hover:bg-blue-700 transition flex items-center gap-2">
@@ -226,7 +226,7 @@ export default function Home() {
             textColor="text-white" 
           />
           <SocialButton 
-            href="https://www.linkedin.com/in/devashish-mudigonda-01822b222/" 
+            href="https://www.linkedin.com/in/devashishmudigonda"
             icon={<FaLinkedin size={24} />}
             label="LinkedIn"
             bgColor="bg-blue-600"
